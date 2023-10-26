@@ -52,7 +52,7 @@ nav{
 main {
   background-color: #ecfcdf;
   padding: 10px 40px 40px 40px;
-  min-height: calc(100vh - 100px); /*mainの高さを画面の高さ-footerの高さに設定 */
+ min-height: calc(100vh - 100px - 100px); /*mainの高さを画面の高さ-footer-headerの高さに設定 */
 }
 .main-heading{
   text-align: center;
@@ -99,7 +99,7 @@ footer{
   text-align: center;
   line-height: 100px;
   bottom: 0;
-  position: sticky;
+  position: relative;
 }
 .footer-text{
   color: #fff;
