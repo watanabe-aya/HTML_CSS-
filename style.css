@@ -65,7 +65,7 @@ main {
 
 .introduction-image{
   width: 30%;
-  margin: 10px;
+  margin-right:  10px;
 }
 .image{
   width: 100%;
@@ -116,9 +116,6 @@ footer{
     }
     .introduction{
       width: 100%;
-    }
-    .introduction-item-social{
-      text-align: center;
     }
   }
 }
